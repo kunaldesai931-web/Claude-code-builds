@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "campaign": "Hollow Road",
+    "system": "dnd5e",
+    "edition": "5.1-SRD",
+    "tone": "classic high fantasy",
+    "canonVersion": "1.0",
+    "currentRegion": "greywatch-village",
+    "worldTime": "Dusk, the first night of autumn",
+    "sessionNumber": 1
+  },
+  "rng": {
+    "seed": "hollow-road",
+    "cursor": 0
+  },
+  "houseRules": {
+    "noFudging": true,
+    "diceReveal": true,
+    "enemyHpVisible": true,
+    "pcRollsOwn": true,
+    "aiRollsWorld": true
+  },
+  "pcs": {
+    "karok": {
+      "name": "Karok Ironhide",
+      "race": "half-orc",
+      "class": "Fighter",
+      "level": 1,
+      "background": "Soldier",
+      "abilities": {
+        "str": 17,
+        "dex": 13,
+        "con": 15,
+        "int": 8,
+        "wis": 12,
+        "cha": 10
+      },
+      "profBonus": 2,
+      "ac": 19,
+      "speed": 30,
+      "initiativeMod": 1,
+      "hp": {
+        "current": 12,
+        "max": 12,
+        "temp": 0
+      },
+      "saves": [
+        "str",
+        "con"
+      ],
+      "skills": {
+        "athletics": "proficient",
+        "intimidation": "proficient",
+        "perception": "proficient",
+        "survival": "proficient"
+      },
+      "spellSlots": {},
+      "knownSpells": [],
+      "features": [
+        "fighting-style-defense",
+        "second-wind",
+        "relentless-endurance",
+        "savage-attacks",
+        "darkvision"
+      ],
+      "conditions": [],
+      "effects": [],
+      "inventory": [
+        { "id": "chain-mail", "qty": 1 },
+        { "id": "shield", "qty": 1 },
+        { "id": "longsword", "qty": 1 },
+        { "id": "javelin", "qty": 4 },
+        { "id": "explorers-pack", "qty": 1 },
+        { "id": "insignia-of-rank", "qty": 1, "note": "former Greywatch militia sergeant" },
+        { "id": "bone-dice-set", "qty": 1, "note": "trophy from a fallen comrade" }
+      ],
+      "xp": 0
+    }
+  },
+  "npcs": {
+    "elder-maeve": {
+      "name": "Elder Maeve",
+      "role": "village elder of Greywatch / quest-giver",
+      "ac": null,
+      "hp": { "current": null, "max": null, "temp": 0 },
+      "conditions": [],
+      "disposition": "wary but hopeful"
+    }
+  },
+  "party": {
+    "gold": 25,
+    "inventory": [],
+    "reputation": {}
+  },
+  "quests": {
+    "the-missing-of-greywatch": {
+      "status": "ongoing",
+      "objective": "Find out why travelers on the Hollow Road have stopped arriving in Greywatch",
+      "clue": "Three caravans overdue; a single survivor babbling about 'lanterns in the mist'",
+      "stake": "The village is cut off before winter; people are starting to vanish"
+    }
+  },
+  "factions": {
+    "greywatch-village": {
+      "attitude": "neutral / desperate",
+      "clock": 0,
+      "notes": "Frontier farming village at the head of the Hollow Road"
+    }
+  },
+  "threads": {
+    "lanterns-in-the-mist": {
+      "intro": "The lone caravan survivor's only coherent words",
+      "clues": [
+        "Pale lanterns seen drifting off the road at dusk"
+      ],
+      "hidden": "What stalks the Hollow Road, and what it wants",
+      "urgency": "high"
+    }
+  },
+  "combat": {
+    "active": false
+  }
+}
