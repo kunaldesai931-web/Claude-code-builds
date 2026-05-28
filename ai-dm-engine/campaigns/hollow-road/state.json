@@ -11,7 +11,7 @@
   },
   "rng": {
     "seed": "hollow-road",
-    "cursor": 0
+    "cursor": 24
   },
   "houseRules": {
     "noFudging": true,
@@ -23,10 +23,8 @@
   "pcs": {
     "karok": {
       "name": "Karok Ironhide",
-      "race": "half-orc",
       "class": "Fighter",
       "level": 1,
-      "background": "Soldier",
       "abilities": {
         "str": 17,
         "dex": 13,
@@ -66,24 +64,53 @@
       "conditions": [],
       "effects": [],
       "inventory": [
-        { "id": "chain-mail", "qty": 1 },
-        { "id": "shield", "qty": 1 },
-        { "id": "longsword", "qty": 1 },
-        { "id": "javelin", "qty": 4 },
-        { "id": "explorers-pack", "qty": 1 },
-        { "id": "insignia-of-rank", "qty": 1, "note": "former Greywatch militia sergeant" },
-        { "id": "bone-dice-set", "qty": 1, "note": "trophy from a fallen comrade" }
+        {
+          "id": "chain-mail",
+          "qty": 1
+        },
+        {
+          "id": "shield",
+          "qty": 1
+        },
+        {
+          "id": "longsword",
+          "qty": 1
+        },
+        {
+          "id": "javelin",
+          "qty": 4
+        },
+        {
+          "id": "explorers-pack",
+          "qty": 1
+        },
+        {
+          "id": "insignia-of-rank",
+          "qty": 1,
+          "note": "former Greywatch militia sergeant"
+        },
+        {
+          "id": "bone-dice-set",
+          "qty": 1,
+          "note": "trophy from a fallen comrade"
+        }
       ],
-      "xp": 0
+      "xp": 0,
+      "race": "half-orc",
+      "background": "Soldier"
     }
   },
   "npcs": {
     "elder-maeve": {
       "name": "Elder Maeve",
-      "role": "village elder of Greywatch / quest-giver",
       "ac": null,
-      "hp": { "current": null, "max": null, "temp": 0 },
+      "hp": {
+        "current": null,
+        "max": null,
+        "temp": 0
+      },
       "conditions": [],
+      "role": "village elder of Greywatch / quest-giver",
       "disposition": "wary but hopeful"
     }
   },
